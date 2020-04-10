@@ -1,19 +1,19 @@
 /* ----------------------------------------
   string utiliies
 
-  バイナリファイルの読み込みと書き込み C++
+  Reading and writing binary files C ++
   http://gurigumi.s349.xrea.com/programming/binary.html
 
-  std::stringでprintfのような書式指定を行う方法 (C++11版)
+  How to specify format like printf with std :: string (C ++ 11 version)
   http://pyopyopyo.hatenablog.com/entry/2019/02/08/102456
 
-  C++ 浮動小数点数 表示方法
+  C ++ floating point display method
   https://qiita.com/ryu136/items/1cbeb860d4a2f056358a
 
-  substr関数で文字列の一部を得る方法
+  How to get part of string with substr function
   https://www.sejuku.net/blog/58892
 
-  文字列⇔数値に変換する方法まとめ
+  How to convert from character string to numeric value
   https://www.sejuku.net/blog/49199
 ---------------------------------------- */
 #include  "strUtil.h"
@@ -367,7 +367,7 @@ string STR_UTIL::dateMinuteString( struct tm *Tm )
 
 
 /* ------------------------------------------------------
-    書式付きstring変換
+    Formatted string conversion
 ------------------------------------------------------ */
 #if 0
 template <typename ... Args>

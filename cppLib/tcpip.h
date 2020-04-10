@@ -71,10 +71,10 @@ typedef struct T_PCAP_HEADER
 /* packet header */
 typedef struct T_PACKET_HEADER
 {
-  uint32_t ts_sec;    /* タイムスタンプ秒 */
-  uint32_t ts_usec;   /* タイムスタンプマイクロ秒 */
-  uint32_t incl_len;  /* ファイルに保存されたパケットのオクテット数 */
-  uint32_t orig_len;  /* パケットの実際の長さ */
+  uint32_t ts_sec;    /* Timestamp seconds */
+  uint32_t ts_usec;   /* Timestamp microsecond */
+  uint32_t incl_len;  /* Number of octets of the packet stored in the file */
+  uint32_t orig_len;  /* The actual length of the packet */
 } t_packet_header;
 
 
