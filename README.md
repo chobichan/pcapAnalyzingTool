@@ -13,7 +13,7 @@ pcapreader.exe TCP hoge.pcap 192.168.1.1:1280 -s
 
 normal output : <br>
 BUILD : Mar 16 2020 14:34:40<br>
-PCAP FILE is mc001.pcap TCP server ip = 192.168.40.1:1280
+PCAP FILE is hoge.pcap TCP server ip = 192.168.40.1:1280
 
 packet00000001<br>
     ETHERNET> source:08:00:70:38:A9:EF destination:00:02:CB:03:71:71 frame type:ETHER2 IPV4<br>
@@ -71,7 +71,7 @@ packet00000004<br>
 
 simple output : <br>
 BUILD : Mar 16 2020 14:34:40<br>
-PCAP FILE is mc001.pcap TCP server ip = 192.168.40.1:1280<br>
+PCAP FILE is hoge.pcap TCP server ip = 192.168.40.1:1280<br>
 
     PAYLOAD> size:12byte<br>
     from 192.168.40.2:1280 to 192.168.40.1:1280 time stamp:2018/8/29 11:28:18.562924(JST) delay:1.53551e+09s<br>
