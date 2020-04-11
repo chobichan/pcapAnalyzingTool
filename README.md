@@ -15,7 +15,7 @@ normal output :
 BUILD : Mar 16 2020 14:34:40
 PCAP FILE is mc001.pcap TCP server ip = 192.168.40.1:1280
 
-packet00000001
+packet00000001<br>
     ETHERNET> source:08:00:70:38:A9:EF destination:00:02:CB:03:71:71 frame type:ETHER2 IPV4
     time stamp:1535509693.321654 2018/8/29 11:28:13.321654(JST) delay:1535509693.321654s
     packet size:64byte
